@@ -31,7 +31,7 @@ function trivia1() {
 }
 
 function truths1() {
-    let truthsAnswer = document.getElementById("truths-answer")
+    let truths1Answer = document.getElementById("truths1-answer")
  
 
     let twinSelected = document.getElementById("twin").checked;
@@ -40,12 +40,12 @@ function truths1() {
 
  
     if (twinSelected) {
-        truthsAnswer.innerHTML = fname + ", you are wrong.";
+        truths1Answer.innerHTML = fname + ", you are wrong.";
     }
     else if (colorblindSelected) {
-        truthsAnswer.innerHTML = fname + ", you are wrong.";
+        truths1Answer.innerHTML = fname + ", you are wrong.";
     }
     else if (righthandedSelected) {
-        truthsAnswer.innerHTML = fname + ", you are correct!";
+        truths1Answer.innerHTML = fname + ", you are correct!";
     }
 }
